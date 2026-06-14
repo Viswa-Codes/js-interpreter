@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "viswa-js-interpreter"
+version = "0.1.0"
+description = "A JavaScript interpreter written in Python"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Viswatej", email = "viswatejabbireddyprof@gmail.com"}]
+
+[project.urls]
+Homepage = "https://github.com/Viswa-Codes/js-interpreter"
+Repository = "https://github.com/Viswa-Codes/js-interpreter"
+Documentation = "https://github.com/Viswa-Codes/js-interpreter#readme"
+
+[project.scripts]
+jsrun = "js_runtime.js_run:main"

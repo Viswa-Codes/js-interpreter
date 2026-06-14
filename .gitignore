@@ -1,0 +1,10 @@
+echo __pycache__/ > .gitignore
+echo *.pyc >> .gitignore
+echo .venv/ >> .gitignore
+__pycache__/
+*.pyc
+dist/
+build/
+*.egg-info/
+.venv/
+working.md
