@@ -1,9 +1,9 @@
 # Final Evalutor file
 import math
 import datetime
-from parser_ast import *
-from environment import Environment
-from js_types import *
+from .parser_ast import *
+from .environment import Environment
+from .js_types import *
 
 class BreakException(Exception):
     pass

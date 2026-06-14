@@ -4,8 +4,7 @@
 import math
 import random
 import datetime
-# pyrefly: ignore [missing-import]
-from parser_ast import Undefined
+from .parser_ast import Undefined
 
 # 1. Type Coercion Helpers
 

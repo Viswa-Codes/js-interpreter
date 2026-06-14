@@ -1,10 +1,8 @@
 import sys
-## pyrefly: ignore [missing-import]
-from lexer import tokenize
-## pyrefly: ignore [missing-import]
-from parser_ast import Parser
-## pyrefly: ignore [missing-import]
-from evaluator import Evaluator
+
+from .lexer import tokenize
+from .parser_ast import Parser
+from .evaluator import Evaluator
 
 def main():
     if len(sys.argv) < 2:
